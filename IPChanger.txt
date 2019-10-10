@@ -4,6 +4,7 @@ do
 ifconfig eth0 $1 2> /dev/null
 dhclient eth0 2> /dev/null
 done
+for i in {0..1}
 do
 ifconfig eth0 $1 2> /dev/null
 dhclient eth0 2> /dev/null
